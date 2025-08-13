@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comic Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* üstten başlıyor */
+    align-items: center;
+    background: linear-gradient(to bottom, #87CEFA, #B0E0E6);
+    padding-top: 150px; /* soruları biraz aşağı kaydırır */
+  }
+  
+  
+  h1 { font-size: 2.5em; color: #457b9d; }
+  h2 { font-size: 2em; margin-bottom: 20px; }
+  
+  button {
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: #ffb703;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #fb8500;
+    transform: scale(1.1);
+  }
+  
+  #answers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #score { font-weight: bold; color: #e63946; }
+  #timer { font-weight: bold; color: #1d3557; }
+  
+  /* Bulutlar */
+  .cloud {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    opacity: 0.8;
+    background-image: url('image/cloud.png'); /* PNG veya JPG koyabilirsin */
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: cloudMove;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes cloudMove {
+    0% { left: -250px; }
+    100% { left: 100%; }
+  }
+  
+  /* Yukarıdan düşen öğeler */
+  .flying {
+    position: absolute;
+    top: -50px;
+    animation-name: floatDown;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes floatDown {
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    50% { transform: translateY(300px) translateX(10px) rotate(180deg); opacity: 0.8; }
+    100% { transform: translateY(600px) translateX(-10px) rotate(360deg); opacity: 0; }
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renkli Matematik Macerası</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Bulutlar -->
+<div class="cloud" style="top:50px; animation-duration:60s;"></div>
+<div class="cloud" style="top:120px; animation-duration:80s;"></div>
+<div class="cloud" style="top:200px; animation-duration:100s;"></div>
+
+<!-- Başlangıç ekranı -->
+<div id="start-screen">
+  <h1>🎨 Renkli Matematik Macerası 🎨</h1>
+  <button id="start-btn">Başla</button>
+</div>
+
+<!-- Oyun ekranı -->
+<div id="game-screen" style="display: none;">
+  <h2 id="question"></h2>
+  <div id="answers"></div>
+  <p>Puan: <span id="score">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
