@@ -1,6 +1,6 @@
 # 🎨 Renkli Matematik Macerası | Fun Math Game for Kids  
 
-Designed for 1st–2nd grade students, this project is a fun and interactive math game. Kids can solve addition problems while colorful balloons, stars, hearts, and confetti float from top to bottom, creating an engaging learning experience.This project was developed as part of my **MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü internship**.
+Designed for 1st–4th grade students, this project is a fun and interactive math game. Kids can solve addition, subtraction, multiplication, and division problems while colorful balloons, stars, hearts, and confetti float from top to bottom, creating an engaging learning experience. This project was developed as part of my **MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü**internship.
 
 ---
 
