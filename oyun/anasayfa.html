@@ -8,19 +8,14 @@
 </head>
 <body>
 
-<!-- Bulutlar -->
-<div class="cloud" style="top:50px; animation-duration:60s;"></div>
-<div class="cloud" style="top:120px; animation-duration:80s;"></div>
-<div class="cloud" style="top:200px; animation-duration:100s;"></div>
-
 <!-- Başlangıç ekranı -->
 <div id="start-screen">
-  <h1>🎨 Renkli Matematik Macerası 🎨</h1>
+  <h1>🌈 Matematik Macerası 🌞</h1>
   <p>Hangi sınıftasın?</p>
-  <button class="class-btn" onclick="startGame(1)">1. Sınıf</button>
-  <button class="class-btn" onclick="startGame(2)">2. Sınıf</button>
-  <button class="class-btn" onclick="startGame(3)">3. Sınıf</button>
-  <button class="class-btn" onclick="startGame(4)">4. Sınıf</button>
+  <button class="class-btn" data-class="1">1. Sınıf</button>
+  <button class="class-btn" data-class="2">2. Sınıf</button>
+  <button class="class-btn" data-class="3">3. Sınıf</button>
+  <button class="class-btn" data-class="4">4. Sınıf</button>
 </div>
 
 <!-- Oyun ekranı -->
@@ -29,10 +24,8 @@
   <div id="answers"></div>
   <p id="message"></p>
   <p>Puan: <span id="score">0</span></p>
-  <button id="end-btn">Oyunu Bitir</button> <!-- Yeni buton -->
+  <button id="end-btn">Oyunu Bitir</button>
 </div>
-
-
 
 <script src="script.js"></script>
 </body>
