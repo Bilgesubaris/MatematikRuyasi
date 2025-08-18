@@ -13,7 +13,8 @@ Designed for 1st–2nd grade students, this project is a fun and interactive mat
 🎉 **Interactive Elements**  
 - Balloons, stars, hearts, and confetti float from top to bottom  
 - Colorful animations keep kids engaged  
-- Shapes appear only when the correct answer is selected  
+- Shapes appear only when the correct answer is selected
+  
 ☁️ **Moving Clouds Background**  
 - Animated clouds create a lively sky background  
 
@@ -27,11 +28,10 @@ Designed for 1st–2nd grade students, this project is a fun and interactive mat
 
 ## 📁 File Structure  
 
-- `index.html` – Main HTML file  
+- `anasayfa.html` – Main HTML file  
 - `style.css` – CSS styles  
 - `script.js` – JavaScript logic  
-- `/image/cloud.png` – Cloud background image  
-- `/image/oyun-demo.gif` – Optional: animated preview  
+- `/image/cloud.png` – Cloud background image   
 
 ---
 
